@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface Drivable {
+public interface Driveable {
+    void accelerate();
+    void brake();
+    void changeGear();
+
 }
